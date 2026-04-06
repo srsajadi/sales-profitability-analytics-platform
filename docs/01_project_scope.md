@@ -1,19 +1,24 @@
 # Project Scope
 
-## Project Title
-Sales & Profitability Analytics Platform
+## Objective
+To design and implement a scalable analytics solution for revenue and profitability analysis using Power BI, with a strong focus on data modelling, KPI definition, and business-driven insights.
 
 ## Business Scenario
-A retail/distribution business wants to monitor sales performance, profitability, target achievement, and trends across products, customers, and regions. The goal is to support executive decision-making and operational analysis through a scalable Power BI semantic model and interactive dashboards.
+A retail/distribution company requires a unified analytics platform to monitor sales performance, profitability, and operational efficiency across products, regions, and customer segments.
 
-## Current Objective
-Build a Power BI analytics demo from scratch using synthetic data, a clean star schema model, DAX-based KPI calculations, and executive-friendly reporting.
-
-## Future Objective
-Extend the project into a broader analytics engineering and data engineering portfolio piece by introducing SQL-based transformations, data pipeline concepts, reusable modelling patterns, and Git-based project management.
+## Key Goals
+- Provide visibility into revenue, cost, and profit
+- Enable analysis of margin and discount impact
+- Support executive decision-making through dashboards
+- Build a reusable and scalable semantic model
 
 ## Assumptions
-- Data is synthetic and created for demo purposes
-- The initial delivery is built in Power BI Desktop
-- The project is designed to be publishable to Power BI Service
-- The repository is structured for future extension into engineering workflows
+- Data is transactional at the order line level
+- Costs and pricing are available
+- Dimensions are clean and structured
+- Time-based analysis is required
+
+## Future Scope
+- Extend to analytics engineering workflows
+- Integrate with cloud platforms (Azure / Fabric)
+- Introduce advanced modelling patterns

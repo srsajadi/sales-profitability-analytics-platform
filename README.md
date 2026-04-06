@@ -1,26 +1,44 @@
-# Sales & Profitability Analytics Platform
+# \# Sales \& Profitability Analytics Platform
 
-A Power BI-based analytics demo project designed to showcase semantic modelling, KPI reporting, and business-focused dashboarding using a scalable star schema model.
+# 
 
-## Project Goals
-- Build a professional Power BI analytics solution from scratch
-- Design a clean star schema semantic model
-- Implement DAX measures and advanced modelling concepts
-- Create executive and analytical dashboard pages
-- Prepare the project for future extension into Analytics Engineering and Data Engineering workflows
+# \## Overview
 
-## Current Scope
-- Synthetic retail-style dataset
-- Power BI semantic model
-- KPI reporting
-- Executive dashboard
-- Drill-through analytics
+# This project demonstrates the design and implementation of a scalable Power BI analytics solution for revenue and profitability analysis. It focuses on building a structured semantic model using a star schema, defining business KPIs, and delivering executive and analytical dashboards.
 
-## Future Roadmap
-- Calculation Groups
-- Dynamic Measure Selector
-- Power BI Service deployment
-- Git-based documentation and versioning
-- SQL transformation layer
-- Analytics Engineer extension
-- Data Engineer extension
+# 
+
+# The solution is designed with a layered architecture approach, supporting future extension into analytics engineering and data engineering workflows.
+
+# 
+
+# \## Objectives
+
+# \- Build a clean and scalable data model (Fact + Dimensions)
+
+# \- Define business-ready KPIs for revenue and profitability
+
+# \- Deliver executive and analytical dashboards
+
+# \- Demonstrate strong data modelling and DAX capabilities
+
+# \- Provide full documentation for business logic and architecture
+
+# 
+
+# \## Tech Stack
+
+# \- Power BI Desktop
+
+# \- DAX
+
+# \- Power Query (M)
+
+# \- GitHub (version control \& documentation)
+
+# \- Markdown (documentation)
+
+# 
+
+# \## Project Structure
+
