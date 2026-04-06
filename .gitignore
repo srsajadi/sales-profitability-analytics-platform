@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+
+# Power BI autosave / temp
+*.pbix.autosave
+*.pbit.autosave
+
+# Large exports
+*.zip
+
+# Optional local settings
+.vscode/
+.idea/
