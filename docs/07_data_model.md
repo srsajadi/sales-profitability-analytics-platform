@@ -31,7 +31,13 @@ Columns:
 - Month
 - Quarter
 - FiscalYear
+## Date Dimension Design
 
+The model uses a dedicated `DimDate` table with:
+- a true date column for time intelligence
+- an integer `DateKey` in `YYYYMMDD` format for relationships
+
+The relationship between `DimDate` and `FactSales` is defined on `DateKey`, while `DimDate[Date]` is used to mark the table as the model’s official date table. This supports both warehouse-style modelling and Power BI time intelligence.
 ### DimProduct
 - ProductID
 - ProductName
@@ -55,10 +61,14 @@ Columns:
 - ChannelName
 
 ## Relationships
-- Dim tables → FactSales (one-to-many)
-- Single direction filtering
-- Star schema enforced
 
+- DimDate[Date] → FactSales[OrderDate]
+- DimProduct[ProductID] → FactSales[ProductID]
+- DimCustomer[CustomerID] → FactSales[CustomerID]
+- DimRegion[RegionID] → FactSales[RegionID]
+- DimChannel[ChannelID] → FactSales[ChannelID]
+
+All relationships are one-to-many and single-direction, enforcing a clean star schema.
 ## Design Principles
 - No snowflake schema
 - No bidirectional relationships

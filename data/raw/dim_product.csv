@@ -1,0 +1,51 @@
+ProductID,ProductName,Category,Subcategory,Brand
+1,Product 1,Electronics,B,BrandY
+2,Product 2,Office Supplies,B,BrandX
+3,Product 3,Office Supplies,B,BrandX
+4,Product 4,Electronics,A,BrandY
+5,Product 5,Furniture,C,BrandX
+6,Product 6,Electronics,A,BrandX
+7,Product 7,Electronics,B,BrandY
+8,Product 8,Furniture,C,BrandY
+9,Product 9,Electronics,A,BrandY
+10,Product 10,Furniture,C,BrandX
+11,Product 11,Office Supplies,C,BrandX
+12,Product 12,Furniture,B,BrandX
+13,Product 13,Furniture,A,BrandX
+14,Product 14,Electronics,B,BrandY
+15,Product 15,Electronics,B,BrandX
+16,Product 16,Electronics,A,BrandY
+17,Product 17,Office Supplies,A,BrandY
+18,Product 18,Electronics,B,BrandY
+19,Product 19,Electronics,C,BrandX
+20,Product 20,Office Supplies,C,BrandY
+21,Product 21,Furniture,B,BrandY
+22,Product 22,Electronics,C,BrandY
+23,Product 23,Furniture,C,BrandX
+24,Product 24,Office Supplies,C,BrandX
+25,Product 25,Office Supplies,C,BrandY
+26,Product 26,Furniture,A,BrandY
+27,Product 27,Office Supplies,C,BrandX
+28,Product 28,Electronics,B,BrandY
+29,Product 29,Furniture,C,BrandX
+30,Product 30,Electronics,A,BrandX
+31,Product 31,Electronics,A,BrandX
+32,Product 32,Electronics,B,BrandX
+33,Product 33,Office Supplies,B,BrandY
+34,Product 34,Furniture,A,BrandX
+35,Product 35,Office Supplies,C,BrandX
+36,Product 36,Electronics,C,BrandX
+37,Product 37,Electronics,C,BrandX
+38,Product 38,Furniture,C,BrandX
+39,Product 39,Furniture,B,BrandY
+40,Product 40,Office Supplies,A,BrandX
+41,Product 41,Furniture,A,BrandX
+42,Product 42,Electronics,A,BrandX
+43,Product 43,Office Supplies,B,BrandX
+44,Product 44,Office Supplies,C,BrandX
+45,Product 45,Electronics,A,BrandY
+46,Product 46,Furniture,C,BrandX
+47,Product 47,Electronics,A,BrandX
+48,Product 48,Office Supplies,C,BrandY
+49,Product 49,Office Supplies,B,BrandY
+50,Product 50,Furniture,A,BrandY
