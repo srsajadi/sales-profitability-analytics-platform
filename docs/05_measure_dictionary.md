@@ -35,3 +35,8 @@ Absolute month-over-month revenue change.
 
 ## Revenue MoM %
 Percentage change in revenue compared to the previous month.
+## Note
+
+Time intelligence calculations are primarily implemented via the Time Intelligence calculation group.
+
+Some standalone measures (e.g. Revenue YTD, Revenue YoY) may exist for validation or transitional purposes but are not the preferred approach for ongoing model design.

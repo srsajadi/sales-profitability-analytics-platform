@@ -74,3 +74,9 @@ All relationships are one-to-many and single-direction, enforcing a clean star s
 - No bidirectional relationships
 - Measures only in fact/measure table
 - Controlled relationships (manual)
+
+## Calculation Groups
+
+The model includes a Time Intelligence calculation group to centralise time-based logic.
+
+This allows dynamic transformation of base measures using SELECTEDMEASURE(), reducing duplication and improving maintainability.
